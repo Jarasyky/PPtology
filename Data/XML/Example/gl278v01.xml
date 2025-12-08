@@ -1,0 +1,1671 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<turbineoperation reportVer="1.0">
+<header>
+<genhead name="Teplofikacni turbina " description="" offernumber="Nxxxxxx" filename="gl278.gen" author="Jindra" date=""/>
+<genfile name="gl278.gen" datetime="Thu Jul 31 15:41:22 2025" />
+<operhead tp="Tp117369-S/b" name="LP1" description="Max. Back-pressure mode, No LP turbine" filename="gl278v01" author="Jindra" date="31.07.2025" />
+<operfile name="gl278.v01" datetime="Thu Jul 31 15:41:22 2025" />
+<calculation tebilversion="7.00" steamlib="IF97" wilson="1.00" global_zf="0" old_eff="0" heating_eff="0" relax="0" req_precision="0.001" final_precision="0.0" />
+<schemeunits massflow="kg/s" enthalpy="kJ/kg" pressure="bar" temperature="°C" power="MW" volumeflow="m3/s" />
+</header>
+<tebilmessages>
+<message msg="svlazovac 384 odpojen" />
+<message msg="vnejsi ucpavka 276 nasava  123.6671 kg/hod vzduchu" />
+<message msg="vnejsi ucpavka 280 nasava  129.2758 kg/hod vzduchu" />
+</tebilmessages>
+<nodes>
+<node ID="51" type="101" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="53" type="101" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="54" type="101" >
+<nodedata>
+<data value="2.4710000000000036" />
+</nodedata>
+</node>
+<node ID="101" type="104" >
+<nodedata>
+</nodedata>
+</node>
+<node ID="102" type="104" >
+<nodedata>
+</nodedata>
+</node>
+<node ID="103" type="104" >
+<nodedata>
+</nodedata>
+</node>
+<node ID="104" type="104" >
+<nodedata>
+</nodedata>
+</node>
+<node ID="122" type="17" >
+<nodedata>
+<data value="19.998752824721024" />
+<data value="0.0" />
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="123" type="17" >
+<nodedata>
+<data value="19.998752824721024" />
+<data value="0.0" />
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="125" type="17" >
+<nodedata>
+<data value="0.0" />
+<data value="0.0" />
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="171" type="116" >
+<nodedata>
+<data value="11.216878342757212" />
+<data value="87.84530386740332" />
+</nodedata>
+</node>
+<node ID="172" type="110" >
+<nodedata>
+<data value="2.00000000000001" />
+</nodedata>
+</node>
+<node ID="173" type="116" >
+<nodedata>
+<data value="2.1617983715132083" />
+<data value="0.29961895850507314" />
+</nodedata>
+</node>
+<node ID="174" type="110" >
+<nodedata>
+<data value="98.87292817679557" />
+</nodedata>
+</node>
+<node ID="175" type="111" >
+<nodedata>
+<data value="1.040110537237487" />
+<data value="17.611154639480798" />
+</nodedata>
+</node>
+<node ID="176" type="118" >
+<nodedata>
+<data value="0.8569350621030586" />
+<data value="93.89828020924928" />
+</nodedata>
+</node>
+<node ID="177" type="110" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="178" type="116" >
+<nodedata>
+<data value="4.486751337102885" />
+<data value="95.13812154696133" />
+</nodedata>
+</node>
+<node ID="179" type="116" >
+<nodedata>
+<data value="4.078864851911713" />
+<data value="95.58011049723757" />
+</nodedata>
+</node>
+<node ID="180" type="110" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="181" type="110" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="182" type="116" >
+<nodedata>
+<data value="1.5295743194668927" />
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="183" type="116" >
+<nodedata>
+<data value="4.486751337102885" />
+<data value="0.55570756417922" />
+</nodedata>
+</node>
+<node ID="184" type="116" >
+<nodedata>
+<data value="11.216878342757212" />
+<data value="63.1526679116604" />
+</nodedata>
+</node>
+<node ID="185" type="111" >
+<nodedata>
+<data value="0.0" />
+<data value="5.8823529411764754" />
+</nodedata>
+</node>
+<node ID="186" type="110" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="187" type="110" >
+<nodedata>
+<data value="98.75" />
+</nodedata>
+</node>
+<node ID="188" type="110" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="189" type="110" >
+<nodedata>
+<data value="98.53928661555476" />
+</nodedata>
+</node>
+<node ID="232" type="200" >
+<nodedata>
+</nodedata>
+</node>
+<node ID="246" type="5" >
+<nodedata>
+<data value="0.0" />
+<data value="0.0" />
+<data value="1" />
+<data value="0" />
+<data value="1.0049999999999955" />
+</nodedata>
+</node>
+<node ID="248" type="5" >
+<nodedata>
+<data value="0.0" />
+<data value="0.0" />
+<data value="1" />
+<data value="0" />
+<data value="2.6200000000000045" />
+</nodedata>
+</node>
+<node ID="249" type="5" >
+<nodedata>
+<data value="0.0" />
+<data value="0.0" />
+<data value="1" />
+<data value="1" />
+<data value="2.173000000000002" />
+</nodedata>
+</node>
+<node ID="261" type="6" >
+<nodedata>
+<data value="92.28431727450251" />
+<data value="538.37" />
+<data value="0.0" />
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="266" type="60" >
+<nodedata>
+<data value="0.0" />
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="271" type="141" >
+<nodedata>
+<data value="20.3" />
+<data value="700.0000000000001" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.94" />
+<data value="5.375352916099186" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="272" type="141" >
+<nodedata>
+<data value="45.3" />
+<data value="700.0000000000001" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.94" />
+<data value="3.8425542448391545" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="273" type="141" >
+<nodedata>
+<data value="1" />
+<data value="690.0000000000001" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.1" />
+<data value="0.040445064151340214" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="274" type="141" >
+<nodedata>
+<data value="38.3" />
+<data value="860.0" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.711" />
+<data value="2.877829088430854" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="275" type="141" >
+<nodedata>
+<data value="25.3" />
+<data value="860.0" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.643" />
+<data value="1.198823962819539" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="276" type="141" >
+<nodedata>
+<data value="12.3" />
+<data value="690.0000000000001" />
+<data value="0.7" />
+<data value="9" />
+<data value="700.0000000000001" />
+<data value="0.7150000000000001" />
+<data value="0.04044506419637859" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="277" type="141" >
+<nodedata>
+<data value="5" />
+<data value="800.0" />
+<data value="1.2" />
+<data value="5" />
+<data value="800.0" />
+<data value="1.1" />
+<data value="0.0" />
+<data value="1" />
+</nodedata>
+</node>
+<node ID="278" type="141" >
+<nodedata>
+<data value="5" />
+<data value="800.0" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="1.1" />
+<data value="0.0" />
+<data value="1" />
+</nodedata>
+</node>
+<node ID="279" type="141" >
+<nodedata>
+<data value="8.3" />
+<data value="690.0000000000001" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.636" />
+<data value="0.08679797966416497" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="280" type="141" >
+<nodedata>
+<data value="10.5" />
+<data value="690.0000000000001" />
+<data value="0.7" />
+<data value="8" />
+<data value="690.0000000000001" />
+<data value="0.676" />
+<data value="0.05309267766747551" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="281" type="141" >
+<nodedata>
+<data value="1" />
+<data value="700.0000000000001" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.1" />
+<data value="5.375352916118178" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="282" type="141" >
+<nodedata>
+<data value="1" />
+<data value="700.0000000000001" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.1" />
+<data value="3.8425542448591403" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="283" type="141" >
+<nodedata>
+<data value="1" />
+<data value="860.0" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.1" />
+<data value="2.8778290884440736" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="284" type="141" >
+<nodedata>
+<data value="1" />
+<data value="860.0" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.1" />
+<data value="1.198823962826009" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="285" type="141" >
+<nodedata>
+<data value="1" />
+<data value="800.0" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.1" />
+<data value="0.0" />
+<data value="1" />
+</nodedata>
+</node>
+<node ID="286" type="141" >
+<nodedata>
+<data value="1" />
+<data value="800.0" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.1" />
+<data value="0.0" />
+<data value="1" />
+</nodedata>
+</node>
+<node ID="287" type="141" >
+<nodedata>
+<data value="1" />
+<data value="690.0000000000001" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.1" />
+<data value="0.08679797965101699" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="288" type="141" >
+<nodedata>
+<data value="1" />
+<data value="690.0000000000001" />
+<data value="0.0" />
+<data value="0" />
+<data value="0.0" />
+<data value="0.1" />
+<data value="0.053092677522793966" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="301" type="150" >
+<nodedata>
+<data value="576,1" />
+<data value="1" />
+<data value="15476.822318250692" />
+<data value="1" />
+<data value="0" />
+<data value="0.804813" />
+<data value="0.795522" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0.0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="1" poradiNaHrideli="17" pocetProudu="1" f="15476.822318250692" q="381.08464708387004" dPatni="0.0" typKola="215" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="1.0" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="90.43863092901246" p2="78.14726594786602" p1-p2="12.291364981146444" p2_ku_p1="0.8640916513785548" e1="831.8242222592123" e2="822.080145900328" x2="1.0" t2="515.7138525855707" v2="0.044855894053196094" Ni="4.328945861788676" />
+</stagedata>
+</node>
+<node ID="308" type="150" >
+<nodedata>
+<data value="576,1" />
+<data value="1" />
+<data value="13442.7" />
+<data value="6" />
+<data value="0" />
+<data value="0.895196" />
+<data value="0.899249" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="1" poradiNaHrideli="18" pocetProudu="1" f="13442.7" q="381.0846470838902" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="1.0" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="78.14726594786602" p2="55.70067594369513" p1-p2="22.446590004170886" p2_ku_p1="0.7127655109630379" e1="822.080145900328" e2="798.0873317046902" x2="1.0" t2="462.9414913200859" v2="0.05893992609577574" Ni="10.68179376180851" />
+</stagedata>
+</node>
+<node ID="318" type="150" >
+<nodedata>
+<data value="576,1" />
+<data value="1" />
+<data value="17113.9" />
+<data value="7" />
+<data value="0" />
+<data value="0.902158" />
+<data value="0.906596" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="1" poradiNaHrideli="19" pocetProudu="1" f="17113.9" q="382.6174457551965" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="1.0" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="55.70067594369513" p2="31.22204500552356" p1-p2="24.47863093817157" p2_ku_p1="0.5605326053329097" e1="798.2289852582151" e2="760.5136352013245" x2="1.0" t2="379.77241256394234" v2="0.09382231910883078" Ni="16.865290252353045" />
+</stagedata>
+</node>
+<node ID="331" type="10" >
+<nodedata>
+<data value="-69.64" />
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="333" type="10" >
+<nodedata>
+<data value="-30.0" />
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="334" type="10" >
+<nodedata>
+<data value="604.9966561574472" />
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="335" type="10" >
+<nodedata>
+<data value="-114.0" />
+<data value="7.739646056502476" />
+</nodedata>
+</node>
+<node ID="336" type="10" >
+<nodedata>
+<data value="-15.0" />
+<data value="3.0591486389337854" />
+</nodedata>
+</node>
+<node ID="337" type="10" >
+<nodedata>
+<data value="-15.0" />
+<data value="3.0591486389337854" />
+</nodedata>
+</node>
+<node ID="340" type="150" >
+<nodedata>
+<data value="576,1" />
+<data value="1" />
+<data value="29744.0" />
+<data value="5" />
+<data value="0" />
+<data value="0.92663" />
+<data value="0.924559" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="2" poradiNaHrideli="12" pocetProudu="1" f="29744.0" q="383.5821709114601" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="1.0" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="31.097156825501468" p2="20.119071273033146" p1-p2="10.978085552468322" p2_ku_p1="0.646974621697066" e1="761.2741572457345" e2="734.8319130372545" x2="1.0" t2="322.54212928187064" v2="0.13336733460415823" Ni="11.769681575601123" />
+</stagedata>
+</node>
+<node ID="341" type="150" >
+<nodedata>
+<data value="576,1" />
+<data value="1" />
+<data value="43506.9" />
+<data value="4" />
+<data value="0" />
+<data value="0.934106" />
+<data value="0.929916" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="2" poradiNaHrideli="11" pocetProudu="1" f="43506.9" q="383.5821709114711" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="1.0" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="20.119071273033146" p2="12.546327782536098" p1-p2="7.572743490497048" p2_ku_p1="0.6236037246586391" e1="734.8319130372545" e2="708.5469945519748" x2="1.0" t2="264.1682113951431" v2="0.1934721683173739" Ni="11.673264348500636" />
+</stagedata>
+</node>
+<node ID="342" type="150" >
+<nodedata>
+<data value="576,1" />
+<data value="1" />
+<data value="65777.5" />
+<data value="5" />
+<data value="0" />
+<data value="0.944837" />
+<data value="0.939779" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="2" poradiNaHrideli="10" pocetProudu="1" f="65777.5" q="385.26117603710696" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="1.0" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="12.546327782536098" p2="4.876702939121462" p1-p2="7.669624843414636" p2_ku_p1="0.38869564255364064" e1="708.7949559167046" e2="663.1547771991894" x2="1.0" t2="163.2355495009043" v2="0.4055081223350523" Ni="20.340009025556693" />
+</stagedata>
+</node>
+<node ID="343" type="150" >
+<nodedata>
+<data value="576,1" />
+<data value="1" />
+<data value="152319.0" />
+<data value="1" />
+<data value="0" />
+<data value="0.945476" />
+<data value="0.959353" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0.003" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="2" poradiNaHrideli="9" pocetProudu="1" f="152319.0" q="308.70395137355024" dPatni="0.0" typKola="220" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="1.0" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="4.876702939121462" p2="3.9787494591447583" p1-p2="0.8979534799767039" p2_ku_p1="0.8158687352528243" e1="663.1547771991894" e2="654.5770511278394" x2="1.0" t2="144.2927368291239" v2="0.475470432252667" Ni="3.124798409928254" />
+</stagedata>
+</node>
+<node ID="345" type="150" >
+<nodedata>
+<data value="576,1" />
+<data value="1" />
+<data value="147928.0" />
+<data value="2" />
+<data value="0" />
+<data value="0.93189" />
+<data value="0.925186" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="2" poradiNaHrideli="8" pocetProudu="1" f="147928.0" q="308.7039513734955" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="1.0" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="3.9787494591447583" p2="2.420751718146505" p1-p2="1.5579977409982533" p2_ku_p1="0.6084202443515635" e1="654.5770511278394" e2="634.7346033953864" x2="0.9741025237245897" t2="125.71712818779491" v2="0.7348810625541684" Ni="7.072639938573587" />
+</stagedata>
+</node>
+<node ID="350" type="150" >
+<nodedata>
+<data value="576,1" />
+<data value="1" />
+<data value="233462.0" />
+<data value="1" />
+<data value="0" />
+<data value="0.937924" />
+<data value="0.870209" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="2" poradiNaHrideli="7" pocetProudu="1" f="233462.0" q="299.06889754250017" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="0.9741025237245897" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="2.420751718146505" p2="1.4351791492184816" p1-p2="0.9855725689280235" p2_ku_p1="0.5928650751169782" e1="634.7346033953864" e2="614.9369473462567" x2="0.9481840910908973" t2="109.44909748171756" v2="1.166833429405612" Ni="6.388820127224677" />
+</stagedata>
+</node>
+<node ID="351" type="11" >
+<nodedata>
+<data value="16.315459407646852" />
+</nodedata>
+</node>
+<node ID="352" type="11" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="353" type="11" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="354" type="11" >
+<nodedata>
+<data value="16.009544543753474" />
+</nodedata>
+</node>
+<node ID="355" type="150" >
+<nodedata>
+<data value="576,1" />
+<data value="1" />
+<data value="272361.0" />
+<data value="1" />
+<data value="0" />
+<data value="0.929594" />
+<data value="1.0708" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="2" poradiNaHrideli="6" pocetProudu="1" f="272361.0" q="180.47789011245234" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="0.9481840910908973" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="1.4351791492184816" p2="1.144491130148583" p1-p2="0.2906880190698986" p2_ku_p1="0.7974552380947068" e1="614.9369473462567" e2="606.7939029726931" x2="0.9379483274285865" t2="102.8652071021308" v2="1.4263635587615981" Ni="1.9688180027814917" />
+</stagedata>
+</node>
+<node ID="356" type="11" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="357" type="11" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="358" type="11" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="359" type="11" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="360" type="11" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="380" type="150" >
+<nodedata>
+<data value="576,1" />
+<data value="1" />
+<data value="316029.0" />
+<data value="1" />
+<data value="0" />
+<data value="0.864183" />
+<data value="0.924475" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="2" poradiNaHrideli="5" pocetProudu="1" f="316029.0" q="180.47789011242327" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="0.9379483274285865" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="1.144491130148583" p2="0.8569350621030586" p1-p2="0.28755606804552436" p2_ku_p1="0.7487476656912208" e1="606.7939029726931" e2="597.3920513777883" x2="0.9268054937507791" t2="94.81570370631505" v2="1.8474428724228258" Ni="2.1110891039215347" />
+</stagedata>
+</node>
+<node ID="381" type="102" >
+<nodedata>
+<data value="220.0" />
+<data value="3" />
+<data value="-1" />
+</nodedata>
+</node>
+<node ID="382" type="102" >
+<nodedata>
+<data value="250.0" />
+<data value="1" />
+<data value="-1" />
+</nodedata>
+</node>
+<node ID="383" type="102" >
+<nodedata>
+<data value="120.0" />
+<data value="3" />
+<data value="-1" />
+</nodedata>
+</node>
+<node ID="384" type="102" >
+<nodedata>
+<data value="129.97" />
+<data value="1" />
+<data value="-1" />
+</nodedata>
+</node>
+<node ID="385" type="102" >
+<nodedata>
+<data value="0.0" />
+<data value="1" />
+<data value="0.98" />
+</nodedata>
+</node>
+<node ID="386" type="102" >
+<nodedata>
+<data value="200.0" />
+<data value="1" />
+<data value="-1" />
+</nodedata>
+</node>
+<node ID="387" type="102" >
+<nodedata>
+<data value="150.0" />
+<data value="3" />
+<data value="-1" />
+</nodedata>
+</node>
+<node ID="388" type="102" >
+<nodedata>
+<data value="300.0" />
+<data value="1" />
+<data value="-1" />
+</nodedata>
+</node>
+<node ID="400" type="150" >
+<nodedata>
+<data value="576,3" />
+<data value="2" />
+<data value="320027.0" />
+<data value="1" />
+<data value="0" />
+<data value="0.928662" />
+<data value="0.892732" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="3" poradiNaHrideli="1" pocetProudu="2" f="320027.0" q="0.0" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="0.9884737288999395" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="0.051242020752659725" p2="0.051242020752659725" p1-p2="0.0" p2_ku_p1="1.0" e1="604.9966561574472" e2="604.996656157447" x2="0.9884737288999391" t2="32.96473677531219" v2="27.730014555155975" Ni="0.0" />
+</stagedata>
+</node>
+<node ID="402" type="15" >
+<nodedata>
+<data value="0.0" />
+<data value="0.0" />
+<data value="0.0" />
+<data value="0.0" />
+<data value="1" />
+</nodedata>
+</node>
+<node ID="405" type="150" >
+<nodedata>
+<data value="576,3" />
+<data value="2" />
+<data value="513521.0" />
+<data value="1" />
+<data value="0" />
+<data value="0.924585" />
+<data value="0.90418" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="3" poradiNaHrideli="2" pocetProudu="2" f="513521.0" q="0.0" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="0.9884737288999391" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="0.051242020752659725" p2="0.051242020752659725" p1-p2="0.0" p2_ku_p1="1.0" e1="604.996656157447" e2="604.996656157447" x2="0.9884737288999391" t2="32.96473677531219" v2="27.730014555155975" Ni="0.0" />
+</stagedata>
+</node>
+<node ID="410" type="150" >
+<nodedata>
+<data value="576,3" />
+<data value="2" />
+<data value="855555.0" />
+<data value="1" />
+<data value="0" />
+<data value="0.913186" />
+<data value="0.88087" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="3" poradiNaHrideli="3" pocetProudu="2" f="855555.0" q="0.0" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="0.9884737288999391" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="0.051242020752659725" p2="0.051242020752659725" p1-p2="0.0" p2_ku_p1="1.0" e1="604.996656157447" e2="604.996656157447" x2="0.9884737288999391" t2="32.96473677531219" v2="27.730014555155975" Ni="0.0" />
+</stagedata>
+</node>
+<node ID="411" type="150" >
+<nodedata>
+<data value="576,3" />
+<data value="2" />
+<data value="1688220.0" />
+<data value="1" />
+<data value="0" />
+<data value="0.585828" />
+<data value="0.631449" />
+<data value="0" />
+<data value="0" />
+<data value="1.0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+</nodedata>
+<stagedata>
+<stageGeom hridel="1" teleso="3" poradiNaHrideli="4" pocetProudu="2" f="1688220.0" q="0.0" dPatni="0.0" typKola="0" pocetPrerus="0" fDleC1="0" fRelOdch="0" parcielnost="0">
+<rotor dRotPredLop="0" dRotZaLop="0"/>
+<ucpavka dUcp="0" pocetBritu="0" vuleUcp="0" qUcp="0"/>
+<lopatka lLop="0" lOLop="0" sirkaBand="0"/>
+<axial cAx0="0" cAx="0" ztrata="0" delta="0" alfa="0" beta20="0" beta2="0" lTot="0" lOpt="0" lRed="0"/>
+<odlotv pocet="0" prumer="0"/>
+</stageGeom>
+<stageFyz eAd="0.0" hAd="0.0" c0="0.0" u_ku_c0="0.0" u_ku_c0_pata="0.0" x1="0.9884737288999391" fi="0.97" c1="0.0" gamma="1.0" vypocetEta="135" u="0.0" eta="0.0" hUz="0.0" p1="0.051242020752659725" p2="0.051242020752659725" p1-p2="0.0" p2_ku_p1="1.0" e1="604.996656157447" e2="604.996656157447" x2="0.9884737288999391" t2="32.96473677531219" v2="27.730014555155975" Ni="0.0" />
+</stagedata>
+</node>
+<node ID="451" type="115" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="452" type="115" >
+<nodedata>
+<data value="-0.25245672375377937" />
+</nodedata>
+</node>
+<node ID="453" type="115" >
+<nodedata>
+<data value="-0.31611202602315774" />
+</nodedata>
+</node>
+<node ID="454" type="115" >
+<nodedata>
+<data value="10821346.935408635" />
+</nodedata>
+</node>
+<node ID="455" type="115" >
+<nodedata>
+<data value="-0.07283659557545136" />
+</nodedata>
+</node>
+<node ID="456" type="115" >
+<nodedata>
+<data value="0.4" />
+</nodedata>
+</node>
+<node ID="457" type="115" >
+<nodedata>
+<data value="-0.044026053749241595" />
+</nodedata>
+</node>
+<node ID="458" type="115" >
+<nodedata>
+<data value="10086689.076882761" />
+</nodedata>
+</node>
+<node ID="459" type="115" >
+<nodedata>
+<data value="2.0" />
+</nodedata>
+</node>
+<node ID="460" type="115" >
+<nodedata>
+<data value="10003164.25293663" />
+</nodedata>
+</node>
+<node ID="461" type="115" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="462" type="115" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="463" type="115" >
+<nodedata>
+<data value="1.0" />
+</nodedata>
+</node>
+<node ID="464" type="115" >
+<nodedata>
+<data value="2.5" />
+</nodedata>
+</node>
+<node ID="465" type="115" >
+<nodedata>
+<data value="0.5" />
+</nodedata>
+</node>
+<node ID="466" type="115" >
+<nodedata>
+<data value="1.0" />
+</nodedata>
+</node>
+<node ID="467" type="115" >
+<nodedata>
+<data value="0.0" />
+</nodedata>
+</node>
+<node ID="501" type="21" >
+<nodedata>
+<data value="5241.6" />
+<data value="2.6" />
+<data value="2.6" />
+<data value="0.0" />
+<data value="0.0" />
+<data value="1" />
+</nodedata>
+</node>
+<node ID="502" type="20" >
+<nodedata>
+<data value="150.0" />
+<data value="0.53" />
+<data value="0.53" />
+<data value="0.0" />
+<data value="0.0" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="503" type="20" >
+<nodedata>
+<data value="5241.6" />
+<data value="2.03" />
+<data value="2.03" />
+<data value="0.0" />
+<data value="0.0" />
+<data value="1" />
+</nodedata>
+</node>
+<node ID="504" type="20" >
+<nodedata>
+<data value="324.0" />
+<data value="2.58" />
+<data value="2.58" />
+<data value="0.0" />
+<data value="0.0" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="505" type="20" >
+<nodedata>
+<data value="324.0" />
+<data value="4.26" />
+<data value="4.26" />
+<data value="12.28" />
+<data value="12.28" />
+<data value="0" />
+</nodedata>
+</node>
+<node ID="546" type="13" >
+<nodedata>
+<data value="0.9789275644588111" />
+</nodedata>
+</node>
+<node ID="561" type="70" >
+<nodedata>
+<data value="0.0" />
+<data value="0.0" />
+<data value="0.05098581064889642" />
+<data value="0.05098581064889642" />
+<data value="0.0" />
+<data value="0.0" />
+<data value="0.0" />
+<data value="25500.0" />
+<data value="10.0" />
+<data value="-0.23884589662749595" />
+<data value="10.0" />
+</nodedata>
+</node>
+<node ID="576" type="9" >
+<nodedata>
+<data value="3000.0" />
+<data value="0.455" />
+<data value="0" />
+<data value="0" />
+<data value="0" />
+<data value="133.3" />
+<data value="0.973" />
+<data value="0.9837" />
+<data value="0.9862000000000001" />
+<data value="0.9866" />
+</nodedata>
+</node>
+<node ID="581" type="12" >
+<nodedata>
+<data value="77.0" />
+</nodedata>
+</node>
+<node ID="582" type="12" >
+<nodedata>
+<data value="75.0" />
+</nodedata>
+</node>
+<node ID="583" type="12" >
+<nodedata>
+<data value="75.0" />
+</nodedata>
+</node>
+<node ID="584" type="12" >
+<nodedata>
+<data value="75.0" />
+</nodedata>
+</node>
+<node ID="585" type="12" >
+<nodedata>
+<data value="75.0" />
+</nodedata>
+</node>
+<node ID="586" type="12" >
+<nodedata>
+<data value="75.0" />
+</nodedata>
+</node>
+<node ID="601" type="82" >
+<nodedata>
+<data value="4" />
+</nodedata>
+</node>
+<node ID="602" type="91" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+<node ID="603" type="91" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="604" type="81" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="605" type="91" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+<node ID="606" type="80" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="607" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="608" type="91" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="609" type="80" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+<node ID="610" type="93" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="611" type="93" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+<node ID="612" type="81" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="613" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="614" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="615" type="82" >
+<nodedata>
+<data value="4" />
+</nodedata>
+</node>
+<node ID="616" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="617" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="618" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="619" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="620" type="91" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+<node ID="621" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="622" type="91" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="623" type="91" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+<node ID="624" type="80" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+<node ID="625" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="626" type="82" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+<node ID="627" type="91" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+<node ID="628" type="91" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="629" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="630" type="91" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="631" type="91" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="632" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="633" type="81" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="634" type="91" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="635" type="81" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="636" type="91" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+<node ID="637" type="91" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="638" type="95" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+<node ID="639" type="91" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="640" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="641" type="91" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="642" type="81" >
+<nodedata>
+<data value="1" />
+</nodedata>
+</node>
+<node ID="643" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="644" type="81" >
+<nodedata>
+<data value="3" />
+</nodedata>
+</node>
+<node ID="645" type="91" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+<node ID="646" type="91" >
+<nodedata>
+<data value="2" />
+</nodedata>
+</node>
+</nodes>
+<edges>
+<edge start="453,2" end="634,1" pressure="4.511823883707089" enthalpy="664.1597771991895" flow="76.55722466342299" temperature="163.91397001574154" />
+<edge start="452,2" end="633,1" pressure="2.168294994392725" enthalpy="637.3546033953864" flow="9.635053831033433" temperature="122.15954246557169" />
+<edge start="625,3" end="125,1" pressure="0.05098581064889642" enthalpy="33.127854445037" flow="0.0" temperature="32.87548952376022" />
+<edge start="624,2" end="261,1" pressure="127.35539659312813" enthalpy="126.45690634573452" flow="386.4599999997838" temperature="124.02520454551848" />
+<edge start="622,3" end="353,1" pressure="92.28431727450251" enthalpy="831.8242222592123" flow="0.0" temperature="538.3700000000018" />
+<edge start="622,2" end="610,1" pressure="92.28431727450251" enthalpy="831.8242222592123" flow="386.45999999988175" temperature="538.3700000000018" />
+<edge start="261,2" end="622,1" pressure="92.28431727450251" enthalpy="831.8242222592123" flow="386.45999999982484" temperature="538.3700000000018" />
+<edge start="232,2" end="614,1" pressure="0.05098581064889642" enthalpy="649.1586404550033" flow="0.0" temperature="115.710767088755" />
+<edge start="467,2" end="183,1" pressure="4.511823883707089" enthalpy="664.1597771991895" flow="76.55722466397084" temperature="163.91397001574154" />
+<edge start="464,2" end="184,1" pressure="30.441493880385472" enthalpy="760.5136352013245" flow="0.0" temperature="379.14810394747735" />
+<edge start="461,2" end="604,1" pressure="0.8569350621030586" enthalpy="597.4168446005431" flow="180.56468809220624" temperature="94.81570370631505" />
+<edge start="460,2" end="181,1" pressure="0.05124202075265972" enthalpy="-0.23884589662749595" flow="0.0" temperature="0.0" />
+<edge start="459,2" end="616,1" pressure="0.05124202075265972" enthalpy="590.6491248055702" flow="0.0" temperature="32.96473677531219" />
+<edge start="458,2" end="180,1" pressure="0.8569350621030586" enthalpy="597.7454499049293" flow="0.0" temperature="94.81570370631505" />
+<edge start="457,2" end="503,2" pressure="0.812909008353817" enthalpy="597.7454499049293" flow="181.72683882486263" temperature="93.39073037561627" />
+<edge start="455,2" end="177,1" pressure="1.3480093741725738" enthalpy="617.1099473462567" flow="118.5910074299383" temperature="107.5999999999998" />
+<edge start="454,2" end="182,1" pressure="1.420845969748025" enthalpy="617.1099473462567" flow="0.0" temperature="109.15152049527177" />
+<edge start="451,2" end="173,1" pressure="2.168294994392725" enthalpy="637.3546033953864" flow="9.635053830921384" temperature="122.15954246557169" />
+<edge start="189,2" end="387,1" pressure="1.3480093741725738" enthalpy="831.8242222592123" flow="0.0" temperature="497.3386643427135" />
+<edge start="188,2" end="603,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="0.0" temperature="120.00000648679475" />
+<edge start="187,2" end="629,2" pressure="0.05098581064889642" enthalpy="649.1586404550033" flow="0.0" temperature="115.710767088755" />
+<edge start="186,2" end="601,2" pressure="0.9789275644588111" enthalpy="703.9464997145676" flow="0.0" temperature="236.2091706723453" />
+<edge start="185,2" end="640,2" pressure="0.9789275644588111" enthalpy="703.9464997145675" flow="0.0" temperature="236.20917067234495" />
+<edge start="184,2" end="388,1" pressure="11.216878342757212" enthalpy="768.1253140279842" flow="0.0" temperature="378.06229554565346" />
+<edge start="183,2" end="384,1" pressure="4.486751337102885" enthalpy="664.1597771991895" flow="76.55722466388133" temperature="163.83249124842115" />
+<edge start="182,2" end="502,2" pressure="1.420845969748025" enthalpy="615.5552743296929" flow="0.0" temperature="109.15152049527177" />
+<edge start="181,2" end="505,2" pressure="0.05124202075265972" enthalpy="-0.23884589662749595" flow="0.0" temperature="0.0" />
+<edge start="180,2" end="504,2" pressure="0.8569350621030586" enthalpy="591.0355558587726" flow="0.0" temperature="94.81570370631505" />
+<edge start="179,2" end="385,1" pressure="4.078864851911713" enthalpy="831.8242222592123" flow="0.0" temperature="498.69311869609" />
+<edge start="178,2" end="386,1" pressure="4.486751337102885" enthalpy="831.8242222592123" flow="0.0" temperature="498.8946641856696" />
+<edge start="177,2" end="643,1" pressure="1.3480093741725738" enthalpy="617.1099473462567" flow="118.59100742996024" temperature="107.5999999999998" />
+<edge start="176,2" end="459,1" pressure="0.05228777627822421" enthalpy="590.6491248055702" flow="0.0" temperature="33.32504281044521" />
+<edge start="175,2" end="604,2" pressure="0.8569350621030586" enthalpy="648.8012317641525" flow="1.1621507326154095" temperature="119.07765621025061" />
+<edge start="174,2" end="613,2" pressure="1.0401105372374868" enthalpy="769.1781684881547" flow="0.0" temperature="371.80519329917445" />
+<edge start="173,2" end="266,1" pressure="2.161798371513208" enthalpy="637.3546033953864" flow="9.635053830997894" temperature="122.06362667778541" />
+<edge start="172,2" end="301,1" pressure="90.43863092901245" enthalpy="831.8242222592123" flow="386.4599999999598" temperature="537.6102522752562" />
+<edge start="171,2" end="382,1" pressure="11.216878342757212" enthalpy="831.8242222592123" flow="0.0" temperature="502.19229641039817" />
+<edge start="388,3" end="356,1" pressure="11.216878342757212" enthalpy="768.1253140279842" flow="0.0" temperature="378.06229554565346" />
+<edge start="387,3" end="643,2" pressure="1.3480093741725738" enthalpy="617.1099473462567" flow="0.0" temperature="107.5999999999998" />
+<edge start="386,3" end="635,2" pressure="4.486751337102885" enthalpy="831.8242222592123" flow="0.0" temperature="498.8946641856696" />
+<edge start="385,3" end="187,1" pressure="4.078864851911713" enthalpy="831.8242222592123" flow="0.0" temperature="498.69311869609" />
+<edge start="384,3" end="635,1" pressure="4.486751337102885" enthalpy="664.1597771991895" flow="76.55722466395571" temperature="163.83249124842115" />
+<edge start="382,3" end="642,2" pressure="11.216878342757212" enthalpy="831.8242222592123" flow="0.0" temperature="502.19229641039817" />
+<edge start="381,3" end="402,1" pressure="1.0401105372374868" enthalpy="696.2217017641526" flow="1.3020413897585954" temperature="220.00000000147043" />
+<edge start="646,3" end="461,1" pressure="0.8569350621030586" enthalpy="597.4168446005431" flow="180.56468809224404" temperature="94.81570370631505" />
+<edge start="646,2" end="176,1" pressure="0.8569350621030586" enthalpy="597.4168446005431" flow="0.0" temperature="94.81570370631505" />
+<edge start="643,3" end="501,2" pressure="1.3480093741725738" enthalpy="617.1099473462567" flow="118.59100742995045" temperature="107.5999999999998" />
+<edge start="642,3" end="451,1" pressure="2.168294994392725" enthalpy="637.3546033953864" flow="9.635053830925912" temperature="122.15954246557169" />
+<edge start="641,3" end="189,1" pressure="92.28431727450251" enthalpy="831.8242222592123" flow="0.0" temperature="538.3700000000018" />
+<edge start="641,2" end="171,1" pressure="92.28431727450251" enthalpy="831.8242222592123" flow="0.0" temperature="538.3700000000018" />
+<edge start="640,3" end="546,1" pressure="0.9789275644588111" enthalpy="703.9464997145675" flow="0.09353774192781046" temperature="236.20917067234495" />
+<edge start="639,3" end="185,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="0.0" temperature="120.00000648679475" />
+<edge start="639,2" end="188,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="0.0" temperature="120.00000648679475" />
+<edge start="638,7" end="388,2" pressure="127.35539659312813" enthalpy="126.45690634573452" flow="0.0" temperature="124.02520454551848" />
+<edge start="638,6" end="387,2" pressure="127.35539659312813" enthalpy="126.45690634573452" flow="0.0" temperature="124.02520454551848" />
+<edge start="638,5" end="385,2" pressure="127.35539659312813" enthalpy="126.45690634573452" flow="0.0" temperature="124.02520454551848" />
+<edge start="638,4" end="386,2" pressure="127.35539659312813" enthalpy="126.45690634573452" flow="0.0" temperature="124.02520454551848" />
+<edge start="638,3" end="382,2" pressure="127.35539659312813" enthalpy="126.45690634573452" flow="0.0" temperature="124.02520454551848" />
+<edge start="638,2" end="624,1" pressure="127.35539659312813" enthalpy="126.45690634573452" flow="386.4599999999135" temperature="124.02520454551848" />
+<edge start="635,3" end="352,1" pressure="4.486751337102885" enthalpy="664.1597771991895" flow="76.55722466401377" temperature="163.83249124842115" />
+<edge start="634,3" end="633,2" pressure="4.511823883707089" enthalpy="664.1597771991895" flow="0.0" temperature="163.91397001574154" />
+<edge start="634,2" end="467,1" pressure="4.511823883707089" enthalpy="664.1597771991895" flow="76.55722466353826" temperature="163.91397001574154" />
+<edge start="633,3" end="612,1" pressure="2.168294994392725" enthalpy="637.3546033953864" flow="9.635053831043527" temperature="122.15954246557169" />
+<edge start="632,3" end="501,3" pressure="1.3480093741725738" enthalpy="93.42318238591695" flow="181.82037656546498" temperature="93.35834224582294" />
+<edge start="630,3" end="464,1" pressure="31.22204500552356" enthalpy="760.5136352013245" flow="0.0" temperature="379.77241256394234" />
+<edge start="630,2" end="612,2" pressure="31.22204500552356" enthalpy="637.3546033953864" flow="0.0" temperature="234.99259593175532" />
+<edge start="629,3" end="232,1" pressure="0.05098581064889642" enthalpy="649.1586404550033" flow="0.0" temperature="115.710767088755" />
+<edge start="628,3" end="179,1" pressure="92.28431727450251" enthalpy="831.8242222592123" flow="0.0" temperature="538.3700000000018" />
+<edge start="628,2" end="172,1" pressure="92.28431727450251" enthalpy="831.8242222592123" flow="386.45999999998276" temperature="538.3700000000018" />
+<edge start="627,3" end="625,2" pressure="7.161798434735614" enthalpy="33.127854445037" flow="0.0" temperature="32.948250027438746" />
+<edge start="627,2" end="505,1" pressure="7.161798434735614" enthalpy="33.127854445037" flow="0.0" temperature="32.948250027438746" />
+<edge start="621,3" end="609,1" pressure="7.161798434735614" enthalpy="109.25666849817094" flow="376.8249461687857" temperature="108.97493702153093" />
+<edge start="620,3" end="639,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="0.0" temperature="120.00000648679475" />
+<edge start="620,2" end="602,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="1.3020413897986145" temperature="120.00000648679475" />
+<edge start="619,3" end="502,1" pressure="7.161798434735614" enthalpy="95.08430178150911" flow="0.0" temperature="94.90719621544451" />
+<edge start="618,3" end="611,1" pressure="7.161798434735614" enthalpy="107.95937285480186" flow="300.4113839958665" temperature="107.68984778419878" />
+<edge start="617,3" end="621,1" pressure="7.161798434735614" enthalpy="107.95937285480187" flow="300.2677215048021" temperature="107.68984778419878" />
+<edge start="613,3" end="381,1" pressure="1.0401105372374868" enthalpy="769.1781684881547" flow="1.1583788986857344" temperature="371.80519329917445" />
+<edge start="612,3" end="642,1" pressure="2.168294994392725" enthalpy="637.3546033953864" flow="9.63505383094369" temperature="122.15954246557169" />
+<edge start="611,5" end="384,2" pressure="7.161798434735614" enthalpy="107.95937285480187" flow="0.0" temperature="107.68984778419878" />
+<edge start="611,4" end="383,2" pressure="7.161798434735614" enthalpy="107.95937285480187" flow="0.0" temperature="107.68984778419878" />
+<edge start="611,3" end="381,2" pressure="7.161798434735614" enthalpy="107.95937285480187" flow="0.14366249106956772" temperature="107.68984778419878" />
+<edge start="611,2" end="617,1" pressure="7.161798434735614" enthalpy="107.95937285480187" flow="300.2677215047918" temperature="107.68984778419878" />
+<edge start="610,5" end="174,1" pressure="92.28431727450251" enthalpy="831.8242222592123" flow="0.0" temperature="538.3700000000018" />
+<edge start="610,4" end="178,1" pressure="92.28431727450251" enthalpy="831.8242222592123" flow="0.0" temperature="538.3700000000018" />
+<edge start="610,3" end="641,1" pressure="92.28431727450251" enthalpy="831.8242222592123" flow="0.0" temperature="538.3700000000018" />
+<edge start="610,2" end="628,1" pressure="92.28431727450251" enthalpy="831.8242222592123" flow="386.45999999998304" temperature="538.3700000000018" />
+<edge start="608,3" end="458,1" pressure="0.8569350621030586" enthalpy="597.7454499049293" flow="0.0" temperature="94.81570370631505" />
+<edge start="608,2" end="457,1" pressure="0.8569350621030586" enthalpy="597.7454499049293" flow="181.7268388248409" temperature="94.81570370631505" />
+<edge start="606,2" end="631,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="0.13989065717805715" temperature="120.00000648679475" />
+<edge start="605,3" end="454,1" pressure="1.420845969748025" enthalpy="617.1099473462567" flow="0.0" temperature="109.15152049527177" />
+<edge start="605,2" end="455,1" pressure="1.420845969748025" enthalpy="617.1099473462567" flow="118.59100742993873" temperature="109.15152049527177" />
+<edge start="604,3" end="608,1" pressure="0.8569350621030586" enthalpy="597.7454499049293" flow="181.7268388248198" temperature="94.81570370631505" />
+<edge start="602,3" end="606,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="0.13989065717845364" temperature="120.00000648679475" />
+<edge start="602,2" end="175,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="1.1621507326159275" temperature="120.00000648679475" />
+<edge start="601,4" end="640,1" pressure="0.9789275644588111" enthalpy="703.9464997145676" flow="0.09353774190484643" temperature="236.2091706723453" />
+<edge start="561,2" end="626,2" pressure="0.05098581064889642" enthalpy="32.90463336874885" flow="0.0" temperature="32.87548952376022" />
+<edge start="623,3" end="357,1" pressure="0.05098581064889642" enthalpy="33.127854445037" flow="0.0" temperature="32.87548952376022" />
+<edge start="623,2" end="614,2" pressure="0.05098581064889642" enthalpy="33.127854445037" flow="0.0" temperature="32.87548952376022" />
+<edge start="125,3" end="626,1" pressure="0.05098581064889642" enthalpy="32.90463336874885" flow="0.0" temperature="32.87548952376022" />
+<edge start="125,2" end="623,1" pressure="0.05098581064889642" enthalpy="33.127854445037" flow="0.0" temperature="32.87548952376022" />
+<edge start="626,4" end="585,1" pressure="0.05098581064889642" enthalpy="32.90463336874885" flow="0.0" temperature="32.87548952376022" />
+<edge start="614,3" end="561,1" pressure="0.05098581064889642" enthalpy="33.127854445037" flow="0.0" temperature="32.87548952376022" />
+<edge start="609,2" end="266,2" pressure="7.161798434735614" enthalpy="109.25666849817094" flow="376.8249461688225" temperature="108.97493702153093" />
+<edge start="266,3" end="581,1" pressure="2.161798371513208" enthalpy="122.42297815709797" flow="386.45999999983957" temperature="122.06362667778541" />
+<edge start="505,4" end="625,1" pressure="0.05124202075265972" enthalpy="32.993731690341534" flow="0.0" temperature="32.96473677531219" />
+<edge start="505,3" end="504,1" pressure="7.161798434735614" enthalpy="33.127854445037" flow="0.0" temperature="32.948250027438746" />
+<edge start="504,4" end="584,1" pressure="0.8569350621030586" enthalpy="94.87965129852095" flow="0.0" temperature="94.81570370631505" />
+<edge start="504,3" end="619,1" pressure="7.161798434735614" enthalpy="33.127854445037" flow="0.0" temperature="32.948250027438746" />
+<edge start="503,4" end="586,1" pressure="0.812909008353817" enthalpy="93.44613735822426" flow="181.72683882486092" temperature="93.39073037561627" />
+<edge start="503,3" end="501,1" pressure="16.315459407646852" enthalpy="91.68592637878336" flow="4212.925743468795" temperature="91.36073037561619" />
+<edge start="502,4" end="583,1" pressure="1.420845969748025" enthalpy="109.33686001297625" flow="0.0" temperature="109.15152049527177" />
+<edge start="502,3" end="618,2" pressure="7.161798434735614" enthalpy="95.08430178150911" flow="0.0" temperature="94.90719621544451" />
+<edge start="501,5" end="582,1" pressure="1.3480093741725738" enthalpy="107.76882912847572" flow="300.4113839953949" temperature="107.5999999999998" />
+<edge start="501,4" end="351,1" pressure="16.315459407646852" enthalpy="105.40440825130685" flow="4212.925743468785" temperature="104.99999999999977" />
+<edge start="402,2" end="620,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="1.3020413897838423" temperature="120.00000648679475" />
+<edge start="546,4" end="354,1" pressure="16.009544543753474" enthalpy="30.92375516280101" flow="107.99999999999937" temperature="30.550510774195345" />
+<edge start="546,3" end="360,1" pressure="0.3178" enthalpy="69.96009107832334" flow="0.09353774193164899" temperature="69.97397507410324" />
+<edge start="586,2" end="632,1" pressure="1.3480093741725738" enthalpy="93.46349062603218" flow="181.7268388248596" temperature="93.3984413205406" />
+<edge start="585,2" end="627,1" pressure="7.161798434735614" enthalpy="33.127854445037" flow="0.0" temperature="32.948250027438746" />
+<edge start="584,2" end="619,2" pressure="7.161798434735614" enthalpy="95.08430178150911" flow="0.0" temperature="94.90719621544451" />
+<edge start="583,2" end="617,2" pressure="7.161798434735614" enthalpy="107.95937285480187" flow="0.0" temperature="107.68984778419878" />
+<edge start="582,2" end="618,1" pressure="7.161798434735614" enthalpy="107.95937285480187" flow="300.41138399539676" temperature="107.68984778419878" />
+<edge start="581,2" end="638,1" pressure="127.35539659312813" enthalpy="126.45690634573452" flow="386.4599999998081" temperature="124.02520454551848" />
+<edge start="337,1" end="632,2" pressure="3.059148638933785" enthalpy="15.111593844395399" flow="0.09353774059694545" temperature="14.99999999999983" />
+<edge start="336,1" end="626,3" pressure="3.059148638933785" enthalpy="15.111593844395399" flow="0.0" temperature="14.99999999999983" />
+<edge start="335,1" end="621,2" pressure="7.739646056502475" enthalpy="114.34483631854661" flow="76.55722466398028" temperature="114.00000000000011" />
+<edge start="333,1" end="546,2" pressure="16.009544543753474" enthalpy="30.374665745423634" flow="107.99999999999916" temperature="30.0" />
+<edge start="331,1" end="503,1" pressure="16.315459407646852" enthalpy="69.93270178593818" flow="4212.925743468778" temperature="69.63999999998498" />
+<edge start="644,3" end="104,1" pressure="0.05124202075265972" enthalpy="604.996656157447" flow="0.0" temperature="32.96473677531219" />
+<edge start="645,3" end="644,2" pressure="0.05124202075265972" enthalpy="604.996656157447" flow="0.0" temperature="32.96473677531219" />
+<edge start="645,2" end="411,1" pressure="0.05124202075265972" enthalpy="604.996656157447" flow="0.0" temperature="32.96473677531219" />
+<edge start="285,2" end="277,1" pressure="0.9812968124739107" enthalpy="648.8012317641525" flow="0.0" temperature="119.7046917864331" />
+<edge start="286,2" end="278,1" pressure="0.16452268071378773" enthalpy="648.8012317641525" flow="0.0" temperature="115.51895381100127" />
+<edge start="637,3" end="359,1" pressure="0.05124202075265972" enthalpy="-0.23884589662749595" flow="0.0" temperature="0.0" />
+<edge start="637,2" end="460,1" pressure="0.05124202075265972" enthalpy="-0.23884589662749595" flow="0.0" temperature="0.0" />
+<edge start="636,3" end="358,1" pressure="0.05098581064889642" enthalpy="649.1586404550033" flow="0.0" temperature="115.710767088755" />
+<edge start="636,2" end="629,1" pressure="0.05098581064889642" enthalpy="649.1586404550033" flow="0.0" temperature="115.710767088755" />
+<edge start="465,2" end="636,1" pressure="0.05098581064889642" enthalpy="649.1586404550033" flow="0.0" temperature="115.710767088755" />
+<edge start="616,3" end="400,1" pressure="0.05124202075265972" enthalpy="604.9966561574472" flow="0.0" temperature="32.96473677531219" />
+<edge start="334,1" end="616,2" pressure="0.05124202075265972" enthalpy="604.9966561574472" flow="0.0" temperature="32.96473677531219" />
+<edge start="122,3" end="615,3" pressure="0.05124202075265972" enthalpy="649.1586404550033" flow="0.0" temperature="115.7120999735991" />
+<edge start="122,2" end="645,1" pressure="0.05124202075265972" enthalpy="604.996656157447" flow="0.0" temperature="32.96473677531219" />
+<edge start="411,2" end="644,1" pressure="0.05124202075265972" enthalpy="604.996656157447" flow="0.0" temperature="32.96473677531219" />
+<edge start="410,2" end="122,1" pressure="0.05124202075265972" enthalpy="604.996656157447" flow="0.0" temperature="32.96473677531219" />
+<edge start="383,3" end="615,1" pressure="0.05124202075265972" enthalpy="604.996656157447" flow="0.0" temperature="32.96473677531219" />
+<edge start="123,3" end="615,2" pressure="0.05124202075265972" enthalpy="649.1586404550033" flow="0.0" temperature="115.7120999735991" />
+<edge start="123,2" end="410,1" pressure="0.05124202075265972" enthalpy="604.996656157447" flow="0.0" temperature="32.96473677531219" />
+<edge start="277,2" end="186,1" pressure="0.9789275644588111" enthalpy="648.8012317641525" flow="0.0" temperature="119.69277902914064" />
+<edge start="603,3" end="285,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="0.0" temperature="120.00000648679475" />
+<edge start="603,2" end="286,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="0.0" temperature="120.00000648679475" />
+<edge start="615,4" end="465,1" pressure="0.05124202075265972" enthalpy="649.1586404550033" flow="0.0" temperature="115.7120999735991" />
+<edge start="104,3" end="383,1" pressure="0.05124202075265972" enthalpy="604.996656157447" flow="0.0" temperature="32.96473677531219" />
+<edge start="278,2" end="104,2" pressure="0.05124202075265972" enthalpy="648.8012317641525" flow="0.0" temperature="114.92557270614589" />
+<edge start="54,3" end="637,1" pressure="0.05124202075265972" enthalpy="-0.23884589662749595" flow="0.0" temperature="0.0" />
+<edge start="54,2" end="123,1" pressure="0.05124202075265972" enthalpy="604.996656157447" flow="0.0" temperature="32.96473677531219" />
+<edge start="405,2" end="54,1" pressure="0.05124202075265972" enthalpy="604.996656157447" flow="0.0" temperature="32.96473677531219" />
+<edge start="400,2" end="405,1" pressure="0.05124202075265972" enthalpy="604.996656157447" flow="0.0" temperature="32.96473677531219" />
+<edge start="273,2" end="276,1" pressure="0.9975122642566675" enthalpy="769.4452587096362" flow="0.04044506419637859" temperature="372.31449175166347" />
+<edge start="287,2" end="279,1" pressure="0.904440806909227" enthalpy="648.9672102599343" flow="0.08679797966416497" temperature="119.66422508901837" />
+<edge start="288,2" end="280,1" pressure="0.9957147537965966" enthalpy="649.0725798816624" flow="0.05309267766747551" temperature="120.3408187847487" />
+<edge start="466,2" end="453,1" pressure="4.827935909730248" enthalpy="664.1597771991895" flow="76.55722466366592" temperature="164.93707650246216" />
+<edge start="246,3" end="466,1" pressure="4.876702939121462" enthalpy="664.1597771991895" flow="76.5572246636231" temperature="165.09422910337264" />
+<edge start="246,2" end="343,1" pressure="4.876702939121462" enthalpy="663.1547771991894" flow="308.70395137360856" temperature="163.2355495009043" />
+<edge start="350,2" end="249,1" pressure="1.4351791492184813" enthalpy="614.9369473462567" flow="299.06889754250017" temperature="109.44909748171756" />
+<edge start="343,2" end="345,1" pressure="3.9787494591447583" enthalpy="654.5770511278394" flow="308.70395137355024" temperature="144.2927368291239" />
+<edge start="341,2" end="103,1" pressure="12.546327782536096" enthalpy="708.5469945519748" flow="383.5821709114711" temperature="264.1682113951431" />
+<edge start="462,2" end="630,1" pressure="31.22204500552356" enthalpy="760.5136352013245" flow="0.0" temperature="379.77241256394234" />
+<edge start="51,3" end="462,1" pressure="31.22204500552356" enthalpy="760.5136352013245" flow="0.0" temperature="379.77241256394234" />
+<edge start="51,2" end="53,1" pressure="31.22204500552356" enthalpy="760.5136352013245" flow="382.617445755079" temperature="379.77241256394234" />
+<edge start="284,3" end="613,1" pressure="1.0401105372374868" enthalpy="769.1781684881547" flow="1.1583788986694337" temperature="371.80519329917445" />
+<edge start="284,2" end="273,1" pressure="1.0401105372374868" enthalpy="769.1781684881547" flow="0.040445064151340214" temperature="371.80519329917445" />
+<edge start="283,3" end="103,2" pressure="12.546327782536096" enthalpy="765.443716026354" flow="1.6790051256399432" temperature="373.89600490529506" />
+<edge start="283,2" end="275,1" pressure="12.546327782536096" enthalpy="765.443716026354" flow="1.198823962819539" temperature="373.89600490529506" />
+<edge start="282,2" end="102,2" pressure="31.097156825501468" enthalpy="836.432588644956" flow="3.8425542448681136" temperature="520.2141187004758" />
+<edge start="281,3" end="101,2" pressure="55.700675943695124" enthalpy="833.4469140472602" flow="1.5327986712849053" temperature="525.6890136869541" />
+<edge start="281,2" end="272,1" pressure="55.700675943695124" enthalpy="833.4469140472602" flow="3.8425542448391545" temperature="525.6890136869541" />
+<edge start="463,2" end="605,1" pressure="1.420845969748025" enthalpy="617.1099473462567" flow="118.59100743000009" temperature="109.15152049527177" />
+<edge start="249,3" end="463,1" pressure="1.4351979492404292" enthalpy="617.1099473462567" flow="118.59100742997565" temperature="109.44948618805506" />
+<edge start="249,2" end="355,1" pressure="1.4351791492184813" enthalpy="614.9369473462567" flow="180.47789011241963" temperature="109.44909748171756" />
+<edge start="248,3" end="452,1" pressure="2.4207517181465046" enthalpy="637.3546033953864" flow="9.63505383101512" temperature="125.71712818779491" />
+<edge start="248,2" end="350,1" pressure="2.4207517181465046" enthalpy="634.7346033953866" flow="299.0688975425392" temperature="125.71712818779491" />
+<edge start="355,2" end="380,1" pressure="1.144491130148583" enthalpy="606.7939029726931" flow="180.47789011245234" temperature="102.8652071021308" />
+<edge start="631,3" end="288,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="0.053092677522793966" temperature="120.00000648679475" />
+<edge start="631,2" end="287,1" pressure="1.0401105372374868" enthalpy="648.8012317641525" flow="0.08679797965101699" temperature="120.00000648679475" />
+<edge start="279,2" end="607,2" pressure="0.8569350621030586" enthalpy="648.9690643708017" flow="0.08679797983116089" temperature="119.42914639841996" />
+<edge start="345,2" end="248,1" pressure="2.4207517181465046" enthalpy="634.7346033953866" flow="308.7039513734955" temperature="125.71712818779491" />
+<edge start="272,2" end="282,1" pressure="47.01736053364392" enthalpy="836.3761141996408" flow="3.8425542448591403" temperature="527.1698811441512" />
+<edge start="101,3" end="318,1" pressure="55.700675943695124" enthalpy="798.2289852582151" flow="382.61744575518287" temperature="463.19023789629625" />
+<edge start="301,3" end="271,1" pressure="77.6476876344725" enthalpy="832.1671114344881" flow="5.375352916099186" temperature="532.8625717691837" />
+<edge start="301,2" end="308,1" pressure="78.14726594786602" enthalpy="822.080145900328" flow="381.08464708387004" temperature="515.7138525855707" />
+<edge start="308,2" end="101,1" pressure="55.700675943695124" enthalpy="798.0873317046902" flow="381.0846470838902" temperature="462.9414913200859" />
+<edge start="607,3" end="646,1" pressure="0.8569350621030586" enthalpy="597.4168446005431" flow="180.56468809227488" temperature="94.81570370631505" />
+<edge start="280,2" end="601,3" pressure="0.9789275644588111" enthalpy="651.6906460667608" flow="0.05309267769942068" temperature="125.7133268428355" />
+<edge start="53,3" end="274,1" pressure="31.22204500552356" enthalpy="760.5136352013245" flow="2.877829088430854" temperature="379.77241256394234" />
+<edge start="53,2" end="456,1" pressure="31.22204500552356" enthalpy="760.5136352013245" flow="379.7396166666317" temperature="379.77241256394234" />
+<edge start="456,2" end="102,1" pressure="31.097156825501468" enthalpy="760.5136352013245" flow="379.73961666658414" temperature="379.672657692371" />
+<edge start="276,2" end="601,1" pressure="0.9789275644588111" enthalpy="772.5433297799609" flow="0.04044506419591496" temperature="378.6129575998176" />
+<edge start="275,2" end="284,1" pressure="10.29108567189497" enthalpy="769.0558120595498" flow="1.198823962826009" temperature="379.1449087351335" />
+<edge start="274,2" end="283,1" pressure="24.574146358074714" enthalpy="765.3401206391596" flow="2.8778290884440736" temperature="383.3905310381757" />
+<edge start="103,3" end="342,1" pressure="12.546327782536096" enthalpy="708.7949559167046" flow="385.26117603715045" temperature="264.63162036761287" />
+<edge start="271,2" end="281,1" pressure="72.50817198073868" enthalpy="833.3892416182566" flow="5.375352916118178" temperature="532.81210816774" />
+<edge start="102,3" end="340,1" pressure="31.097156825501468" enthalpy="761.2741572457345" flow="383.58217091144587" temperature="381.05426874141654" />
+<edge start="380,2" end="607,1" pressure="0.8569350621030586" enthalpy="597.3920513777883" flow="180.47789011242327" temperature="94.81570370631505" />
+<edge start="342,2" end="246,1" pressure="4.876702939121462" enthalpy="663.1547771991894" flow="385.26117603710696" temperature="163.2355495009043" />
+<edge start="340,2" end="341,1" pressure="20.119071273033143" enthalpy="734.8319130372545" flow="383.5821709114601" temperature="322.54212928187064" />
+<edge start="318,2" end="51,1" pressure="31.22204500552356" enthalpy="760.5136352013245" flow="382.6174457551965" temperature="379.77241256394234" />
+</edges>
+<rotors>
+<rotor ID="1" nodeID="576" Ni="96.2817461235925" Ns="95.8267461235925" Ne="94.48535438943384" eta="0.9860019066865883" ot="3000.0" >
+<part number="1" Ni="31.854491137373813" ot="3000.0" Ns="31.854491137373813">
+<stages>
+<stg ID="301" />
+<stg ID="308" />
+<stg ID="318" />
+</stages>
+</part>
+<part number="2" Ni="64.42725498621867" ot="3000.0" Ns="64.42725498621867">
+<stages>
+<stg ID="340" />
+<stg ID="341" />
+<stg ID="342" />
+<stg ID="343" />
+<stg ID="345" />
+<stg ID="350" />
+<stg ID="355" />
+<stg ID="380" />
+</stages>
+</part>
+<part number="3" Ni="0.0" ot="3000.0" Ns="0.0">
+<stages>
+<stg ID="400" />
+<stg ID="405" />
+<stg ID="410" />
+<stg ID="411" />
+</stages>
+</part>
+</rotor>
+</rotors>
+</turbineoperation>
