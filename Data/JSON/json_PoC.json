@@ -1,0 +1,63 @@
+{
+  "nodes": [
+    {
+      "id": "261",
+      "type": "6",
+      "description": "Boiler"
+    },
+    {
+      "id": "176",
+      "type": "118",
+      "description": "Turbine"
+    },
+    {
+      "id": "501",
+      "type": "21",
+      "description": "Condenser"
+    },
+    {
+      "id": "561",  
+      "type": "70",
+      "description": "Feedwater pump"
+    }
+  ],
+  "edges": [
+    {
+      "from": "261",
+      "to": "176",
+      "properties": {
+        "Pressure": 92.0,
+        "Temperature": 538.0,
+        "Massflow": 386.46
+      }
+    },
+    {
+      "from": "176",
+      "to": "501",
+      "properties": {
+        "Pressure": 0.85,
+        "Temperature": 94.0,
+        "MassFlow": 386.46
+      }
+    },
+    {
+      "from": "501",
+      "to": "561",
+      "properties": {
+        "Pressure": 0.85,
+        "Temperature": 35.0,
+        "MassFlow": 386.46
+      }
+    },
+    {
+      "from": "561",
+      "to": "261",
+      "properties": {
+        "Pressure": 120.0,
+        "Temperature": 90.0,
+        "MassFlow": 386.46
+        
+      }
+    }
+  ]
+}

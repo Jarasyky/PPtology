@@ -134,14 +134,6 @@
     
 
 
-    <!-- http://pptology.org/ontology#Condenser -->
-
-    <owl:Class rdf:about="http://pptology.org/ontology#Condenser">
-        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#TwoPhaseExchanger"/>
-    </owl:Class>
-    
-
-
     <!-- http://pptology.org/ontology#ConectionType -->
 
     <owl:Class rdf:about="http://pptology.org/ontology#ConectionType">
@@ -185,7 +177,7 @@
     <!-- http://pptology.org/ontology#EvacuationUnit -->
 
     <owl:Class rdf:about="http://pptology.org/ontology#EvacuationUnit">
-        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#Device"/>
+        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#MechanicalDevice"/>
     </owl:Class>
     
 
@@ -193,7 +185,7 @@
     <!-- http://pptology.org/ontology#FeedWaterTank -->
 
     <owl:Class rdf:about="http://pptology.org/ontology#FeedWaterTank">
-        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#Device"/>
+        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#MechanicalDevice"/>
     </owl:Class>
     
 
@@ -201,7 +193,7 @@
     <!-- http://pptology.org/ontology#FlashTank -->
 
     <owl:Class rdf:about="http://pptology.org/ontology#FlashTank">
-        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#Device"/>
+        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#MechanicalDevice"/>
     </owl:Class>
     
 
@@ -262,9 +254,9 @@
     
 
 
-    <!-- http://pptology.org/ontology#MassFLow -->
+    <!-- http://pptology.org/ontology#MassFlow -->
 
-    <owl:Class rdf:about="http://pptology.org/ontology#MassFLow">
+    <owl:Class rdf:about="http://pptology.org/ontology#MassFlow">
         <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#PhysicalValue"/>
     </owl:Class>
     
@@ -341,7 +333,7 @@
     <!-- http://pptology.org/ontology#Pump -->
 
     <owl:Class rdf:about="http://pptology.org/ontology#Pump">
-        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#Device"/>
+        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#MechanicalDevice"/>
     </owl:Class>
     
 
@@ -394,17 +386,17 @@
     
 
 
-    <!-- http://pptology.org/ontology#ThermalWaterTreatment -->
+    <!-- http://pptology.org/ontology#Temperature -->
 
-    <owl:Class rdf:about="http://pptology.org/ontology#ThermalWaterTreatment">
-        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#Device"/>
+    <owl:Class rdf:about="http://pptology.org/ontology#Temperature">
+        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#PhysicalValue"/>
     </owl:Class>
     
 
 
-    <!-- http://pptology.org/ontology#Turbine -->
+    <!-- http://pptology.org/ontology#ThermalWaterTreatment -->
 
-    <owl:Class rdf:about="http://pptology.org/ontology#Turbine">
+    <owl:Class rdf:about="http://pptology.org/ontology#ThermalWaterTreatment">
         <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#MechanicalDevice"/>
     </owl:Class>
     
@@ -421,7 +413,7 @@
     <!-- http://pptology.org/ontology#Valve -->
 
     <owl:Class rdf:about="http://pptology.org/ontology#Valve">
-        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#Device"/>
+        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#MechanicalDevice"/>
     </owl:Class>
     
 
@@ -431,6 +423,48 @@
     <owl:Class rdf:about="http://pptology.org/ontology#WorkingMedium">
         <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#Object"/>
     </owl:Class>
+    
+
+
+    <!-- http://pptology.org/ontology#118 -->
+
+    <owl:Class rdf:about="http://pptology.org/ontology#118">
+        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#MechanicalDevice"/>
+        <rdfs:label>Turbine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://pptology.org/ontology#21 -->
+
+    <owl:Class rdf:about="http://pptology.org/ontology#21">
+        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#TwoPhaseExchanger"/>
+        <rdfs:label>Condenser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://pptology.org/ontology#6 -->
+
+    <owl:Class rdf:about="http://pptology.org/ontology#6">
+        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#HeatSource"/>
+        <rdfs:label>Boiler</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://pptology.org/ontology#70 -->
+
+    <owl:Class rdf:about="http://pptology.org/ontology#70">
+        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#Pump"/>
+        <rdfs:label>Feedwater Pump</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://pptology.org/ontology#70"/>
+        <owl:annotatedProperty rdf:resource="http://www.w3.org/2000/01/rdf-schema#subClassOf"/>
+        <owl:annotatedTarget rdf:resource="http://pptology.org/ontology#Pump"/>
+        <rdfs:label>Feedwater Pump</rdfs:label>
+    </owl:Axiom>
 </rdf:RDF>
 
 

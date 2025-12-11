@@ -5,28 +5,14 @@ from pathlib import Path
 
 
 def _parse_number(s: str):
-    """Try to parse a string as number, otherwise return original string."""
     try:
         n = float(s)
-        # Collapse things like "0.0" to 0
         return int(n) if n.is_integer() else n
     except ValueError:
         return s
 
 
 def parse_node(node_el: ET.Element) -> dict:
-    """
-    XML:
-      <node ID="51" type="101">
-        <nodedata>
-          <data value="0.0" />
-          ...
-        </nodedata>
-      </node>
-
-    JSON:
-      { "id": "51", "type": 101, "data": [0.0] }
-    """
     node_id = node_el.attrib["ID"]
     node_type = int(node_el.attrib["type"])
 
@@ -46,32 +32,12 @@ def parse_node(node_el: ET.Element) -> dict:
 
 
 def _parse_edge_end(value: str) -> dict:
-    """
-    "453,2" -> { "node": "453", "port": 2 }
-    """
     node_id, port_str = value.split(",", 1)
     return {"node": node_id, "port": int(port_str)}
 
 
 def parse_edge(edge_el: ET.Element) -> dict:
-    """
-    XML:
-      <edge start="453,2" end="634,1"
-            pressure="..." enthalpy="..."
-            flow="..." temperature="..." />
-
-    JSON:
-      {
-        "from": { "node": "453", "port": 2 },
-        "to":   { "node": "634", "port": 1 },
-        "pressure": ...,
-        "enthalpy": ...,
-        "flow": ...,
-        "temperature": ...
-      }
-    """
     a = edge_el.attrib
-
     return {
         "from": _parse_edge_end(a["start"]),
         "to": _parse_edge_end(a["end"]),
@@ -83,18 +49,6 @@ def parse_edge(edge_el: ET.Element) -> dict:
 
 
 def xml_to_json_graph(xml_path: str | Path) -> dict:
-    """
-    Top-level JSON:
-
-    {
-      "nodes": {
-        "51": { "type": 101, "data": [0.0] },
-        "171": { "type": 116, "data": [11.21, 87.84] },
-        ...
-      },
-      "edges": [ ...edge objects... ]
-    }
-    """
     xml_path = Path(xml_path)
     tree = ET.parse(xml_path)
     root = tree.getroot()
@@ -105,13 +59,10 @@ def xml_to_json_graph(xml_path: str | Path) -> dict:
     if nodes_el is None or edges_el is None:
         raise RuntimeError("XML does not contain <nodes> and <edges> sections")
 
-    # Dict keyed by node id for fast lookup
-    nodes: dict[str, dict] = {}
-    for node_el in nodes_el.findall("node"):
-        n = parse_node(node_el)
-        nodes[n["id"]] = {"type": n["type"], "data": n["data"]}
+    # NOW nodes is an array
+    nodes = [parse_node(node_el) for node_el in nodes_el.findall("node")]
 
-    # Simple list for edges
+    # edges stay as an array
     edges = [parse_edge(e) for e in edges_el.findall("edge")]
 
     return {"nodes": nodes, "edges": edges}
