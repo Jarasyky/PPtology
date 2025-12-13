@@ -27,8 +27,6 @@
 
     <owl:ObjectProperty rdf:about="http://pptology.org/ontology#IsStateOf">
         <owl:inverseOf rdf:resource="http://pptology.org/ontology#hasState"/>
-        <rdfs:domain rdf:resource="http://pptology.org/ontology#PlantState"/>
-        <rdfs:domain rdf:resource="http://pptology.org/ontology#SubState"/>
         <rdfs:range rdf:resource="http://pptology.org/ontology#Device"/>
     </owl:ObjectProperty>
     
@@ -55,32 +53,25 @@
     
 
 
+    <!-- http://pptology.org/ontology#hasProperti -->
+
+    <owl:ObjectProperty rdf:about="http://pptology.org/ontology#hasProperti">
+        <owl:inverseOf rdf:resource="http://pptology.org/ontology#isPropertiFor"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://pptology.org/ontology#hasState -->
 
     <owl:ObjectProperty rdf:about="http://pptology.org/ontology#hasState">
         <rdfs:domain rdf:resource="http://pptology.org/ontology#Device"/>
-        <rdfs:range rdf:resource="http://pptology.org/ontology#PlantState"/>
-        <rdfs:range rdf:resource="http://pptology.org/ontology#SubState"/>
     </owl:ObjectProperty>
     
 
 
-    <!-- http://pptology.org/ontology#hasSubState -->
+    <!-- http://pptology.org/ontology#isPropertiFor -->
 
-    <owl:ObjectProperty rdf:about="http://pptology.org/ontology#hasSubState">
-        <owl:inverseOf rdf:resource="http://pptology.org/ontology#isSubStateOf"/>
-        <rdfs:domain rdf:resource="http://pptology.org/ontology#State"/>
-        <rdfs:range rdf:resource="http://pptology.org/ontology#SubState"/>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://pptology.org/ontology#isSubStateOf -->
-
-    <owl:ObjectProperty rdf:about="http://pptology.org/ontology#isSubStateOf">
-        <rdfs:domain rdf:resource="http://pptology.org/ontology#SubState"/>
-        <rdfs:range rdf:resource="http://pptology.org/ontology#State"/>
-    </owl:ObjectProperty>
+    <owl:ObjectProperty rdf:about="http://pptology.org/ontology#isPropertiFor"/>
     
 
 
@@ -300,14 +291,6 @@
     
 
 
-    <!-- http://pptology.org/ontology#PlantState -->
-
-    <owl:Class rdf:about="http://pptology.org/ontology#PlantState">
-        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#State"/>
-    </owl:Class>
-    
-
-
     <!-- http://pptology.org/ontology#PowerPlant -->
 
     <owl:Class rdf:about="http://pptology.org/ontology#PowerPlant">
@@ -378,14 +361,6 @@
     
 
 
-    <!-- http://pptology.org/ontology#SubState -->
-
-    <owl:Class rdf:about="http://pptology.org/ontology#SubState">
-        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#State"/>
-    </owl:Class>
-    
-
-
     <!-- http://pptology.org/ontology#Temperature -->
 
     <owl:Class rdf:about="http://pptology.org/ontology#Temperature">
@@ -414,6 +389,14 @@
 
     <owl:Class rdf:about="http://pptology.org/ontology#Valve">
         <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#MechanicalDevice"/>
+    </owl:Class>
+    
+
+
+    <!-- http://pptology.org/ontology#Water -->
+
+    <owl:Class rdf:about="http://pptology.org/ontology#Water">
+        <rdfs:subClassOf rdf:resource="http://pptology.org/ontology#WorkingMedium"/>
     </owl:Class>
     
 
