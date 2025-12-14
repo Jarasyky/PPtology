@@ -7,7 +7,7 @@
   :partOf :N052271 .
 
 :st_N052271-1_261_176 a :State;
-  :hasComponent :N052271_1_pipe_261_176 .
+  :IsStateOf :pipe_261_176 .
 
 :p_N052271-1_261_177 a :Pressure;
   :isPropertiFor :st_N052271-1_261_176;
@@ -20,7 +20,7 @@
   :referenceUnit "C" .
 
 :mf_N052271-1_261_179 a :MassFlow;
-  :isPropertiFor :mf_N052271-1_261_179;
+  :isPropertiFor :st_N052271-1_261_176;
   :dataValue 3.8646E2;
   :referenceUnit "kg/s" .
 
@@ -32,7 +32,7 @@
   :partOf :N052271 .
 
 :st_N052271-1_176_501 a :State;
-  :hasComponent :N052271_1_pipe_176_501 .
+  :IsStateOf :pipe_176_501 .
 
 :p_N052271-1_176_502 a :Pressure;
   :isPropertiFor :st_N052271-1_176_501;
@@ -45,7 +45,7 @@
   :referenceUnit "C" .
 
 :mf_N052271-1_176_504 a :MassFlow;
-  :isPropertiFor :mf_N052271-1_176_504;
+  :isPropertiFor :st_N052271-1_176_501;
   :dataValue 3.8646E2;
   :referenceUnit "kg/s" .
 
@@ -54,7 +54,7 @@
   :partOf :N052271 .
 
 :st_N052271-1_501_561 a :State;
-  :hasComponent :N052271_1_pipe_501_561 .
+  :IsStateOf :pipe_501_561 .
 
 :p_N052271-1_501_562 a :Pressure;
   :isPropertiFor :st_N052271-1_501_561;
@@ -67,7 +67,7 @@
   :referenceUnit "C" .
 
 :mf_N052271-1_501_564 a :MassFlow;
-  :isPropertiFor :mf_N052271-1_501_564;
+  :isPropertiFor :st_N052271-1_501_561;
   :dataValue 3.8646E2;
   :referenceUnit "kg/s" .
 
@@ -76,7 +76,7 @@
   :partOf :N052271 .
 
 :st_N052271-1_561_261 a :State;
-  :hasComponent :N052271_1_pipe_561_261 .
+  :IsStateOf :pipe_561_261 .
 
 :p_N052271-1_561_262 a :Pressure;
   :isPropertiFor :st_N052271-1_561_261;
@@ -89,6 +89,6 @@
   :referenceUnit "C" .
 
 :mf_N052271-1_561_264 a :MassFlow;
-  :isPropertiFor :mf_N052271-1_561_264;
+  :isPropertiFor :st_N052271-1_561_261;
   :dataValue 3.8646E2;
   :referenceUnit "kg/s" .
