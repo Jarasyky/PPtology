@@ -8,24 +8,24 @@
 
 :st_N052271-1_261_176 a :State;
   :IsStateOf :pipe_261_176;
-  :hasSubObject :N052271_1 .
+  :hasSubObject :gl278.v01, :gl279.v01, :gl280.v01 .
 
 :p_N052271-1_261_177 a :Pressure;
   :isPropertiFor :st_N052271-1_261_176;
-  :dataValue 9.2E1;
+  :dataValue 9.2E1, 9.4E1;
   :referenceUnit "Bar" .
 
 :t_N052271-1_261_178 a :Temperature;
   :isPropertiFor :st_N052271-1_261_176;
-  :dataValue 5.38E2;
+  :dataValue 5.38E2, 5.27E2;
   :referenceUnit "C" .
 
 :mf_N052271-1_261_179 a :MassFlow;
   :isPropertiFor :st_N052271-1_261_176;
-  :dataValue 3.8646E2;
+  :dataValue 3.8646E2, 1.5265E2;
   :referenceUnit "kg/s" .
 
-:N052271_1 a :State;
+:gl278.v01 a :State;
   :IsStateOf :N052271 .
 
 :pipe_176_501 a :Pipe;
@@ -34,21 +34,21 @@
 
 :st_N052271-1_176_501 a :State;
   :IsStateOf :pipe_176_501;
-  :hasSubObject :N052271_1 .
+  :hasSubObject :gl278.v01, :gl279.v01 .
 
 :p_N052271-1_176_502 a :Pressure;
   :isPropertiFor :st_N052271-1_176_501;
-  :dataValue 8.5E-1;
+  :dataValue 8.5E-1, 8.7E-1;
   :referenceUnit "Bar" .
 
 :t_N052271-1_176_503 a :Temperature;
   :isPropertiFor :st_N052271-1_176_501;
-  :dataValue 9.4E1;
+  :dataValue 9.4E1, 9.1E1;
   :referenceUnit "C" .
 
 :mf_N052271-1_176_504 a :MassFlow;
   :isPropertiFor :st_N052271-1_176_501;
-  :dataValue 3.8646E2;
+  :dataValue 3.8646E2, 1.5266E2;
   :referenceUnit "kg/s" .
 
 :pipe_501_561 a :Pipe;
@@ -57,21 +57,21 @@
 
 :st_N052271-1_501_561 a :State;
   :IsStateOf :pipe_501_561;
-  :hasSubObject :N052271_1 .
+  :hasSubObject :gl278.v01, :gl279.v01, :gl280.v01 .
 
 :p_N052271-1_501_562 a :Pressure;
   :isPropertiFor :st_N052271-1_501_561;
-  :dataValue 8.5E-1;
+  :dataValue 8.5E-1, 8.2E-1, 9.4E1;
   :referenceUnit "Bar" .
 
 :t_N052271-1_501_563 a :Temperature;
   :isPropertiFor :st_N052271-1_501_561;
-  :dataValue 3.5E1;
+  :dataValue 3.5E1, 3.8E1, 5.28E2;
   :referenceUnit "C" .
 
 :mf_N052271-1_501_564 a :MassFlow;
   :isPropertiFor :st_N052271-1_501_561;
-  :dataValue 3.8646E2;
+  :dataValue 3.8646E2, 1.5267E2;
   :referenceUnit "kg/s" .
 
 :pipe_561_261 a :Pipe;
@@ -80,19 +80,25 @@
 
 :st_N052271-1_561_261 a :State;
   :IsStateOf :pipe_561_261;
-  :hasSubObject :N052271_1 .
+  :hasSubObject :gl278.v01, :gl279.v01, :gl280.v01 .
 
 :p_N052271-1_561_262 a :Pressure;
   :isPropertiFor :st_N052271-1_561_261;
-  :dataValue 1.2E2;
+  :dataValue 1.2E2, 1.17E2;
   :referenceUnit "Bar" .
 
 :t_N052271-1_561_263 a :Temperature;
   :isPropertiFor :st_N052271-1_561_261;
-  :dataValue 9.0E1;
+  :dataValue 9.0E1, 9.5E1;
   :referenceUnit "C" .
 
 :mf_N052271-1_561_264 a :MassFlow;
   :isPropertiFor :st_N052271-1_561_261;
-  :dataValue 3.8646E2;
+  :dataValue 3.8646E2, 1.5268E2;
   :referenceUnit "kg/s" .
+
+:gl279.v01 a :State;
+  :IsStateOf :N052271 .
+
+:gl280.v01 a :State;
+  :IsStateOf :N052271 .
