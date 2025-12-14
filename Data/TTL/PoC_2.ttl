@@ -1,0 +1,94 @@
+@base <http://pptology.org/ontology> .
+@prefix : <http://pptology.org/ontology#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+:pipe_261_176 a :Pipe;
+  :connectedWith :261, :176;
+  :partOf :N052271 .
+
+:st_N052271-1_261_176 a :State;
+  :hasComponent :N052271_1_pipe_261_176 .
+
+:p_N052271-1_261_177 a :Pressure;
+  :isPropertiFor :st_N052271-1_261_176;
+  :dataValue 9.2E1;
+  :referenceUnit "Bar" .
+
+:t_N052271-1_261_178 a :Temperature;
+  :isPropertiFor :st_N052271-1_261_176;
+  :dataValue 5.38E2;
+  :referenceUnit "C" .
+
+:mf_N052271-1_261_179 a :MassFlow;
+  :isPropertiFor :mf_N052271-1_261_179;
+  :dataValue 3.8646E2;
+  :referenceUnit "kg/s" .
+
+:N052271_1 a :State;
+  :IsStateOf :N052271 .
+
+:pipe_176_501 a :Pipe;
+  :connectedWith :176, :501;
+  :partOf :N052271 .
+
+:st_N052271-1_176_501 a :State;
+  :hasComponent :N052271_1_pipe_176_501 .
+
+:p_N052271-1_176_502 a :Pressure;
+  :isPropertiFor :st_N052271-1_176_501;
+  :dataValue 8.5E-1;
+  :referenceUnit "Bar" .
+
+:t_N052271-1_176_503 a :Temperature;
+  :isPropertiFor :st_N052271-1_176_501;
+  :dataValue 9.4E1;
+  :referenceUnit "C" .
+
+:mf_N052271-1_176_504 a :MassFlow;
+  :isPropertiFor :mf_N052271-1_176_504;
+  :dataValue 3.8646E2;
+  :referenceUnit "kg/s" .
+
+:pipe_501_561 a :Pipe;
+  :connectedWith :501, :561;
+  :partOf :N052271 .
+
+:st_N052271-1_501_561 a :State;
+  :hasComponent :N052271_1_pipe_501_561 .
+
+:p_N052271-1_501_562 a :Pressure;
+  :isPropertiFor :st_N052271-1_501_561;
+  :dataValue 8.5E-1;
+  :referenceUnit "Bar" .
+
+:t_N052271-1_501_563 a :Temperature;
+  :isPropertiFor :st_N052271-1_501_561;
+  :dataValue 3.5E1;
+  :referenceUnit "C" .
+
+:mf_N052271-1_501_564 a :MassFlow;
+  :isPropertiFor :mf_N052271-1_501_564;
+  :dataValue 3.8646E2;
+  :referenceUnit "kg/s" .
+
+:pipe_561_261 a :Pipe;
+  :connectedWith :561, :261;
+  :partOf :N052271 .
+
+:st_N052271-1_561_261 a :State;
+  :hasComponent :N052271_1_pipe_561_261 .
+
+:p_N052271-1_561_262 a :Pressure;
+  :isPropertiFor :st_N052271-1_561_261;
+  :dataValue 1.2E2;
+  :referenceUnit "Bar" .
+
+:t_N052271-1_561_263 a :Temperature;
+  :isPropertiFor :st_N052271-1_561_261;
+  :dataValue 9.0E1;
+  :referenceUnit "C" .
+
+:mf_N052271-1_561_264 a :MassFlow;
+  :isPropertiFor :mf_N052271-1_561_264;
+  :dataValue 3.8646E2;
+  :referenceUnit "kg/s" .

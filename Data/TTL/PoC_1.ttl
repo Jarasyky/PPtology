@@ -1,0 +1,19 @@
+@base <http://pptology.org/ontology> .
+@prefix : <http://pptology.org/ontology#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+
+:261 a :6;
+  rdfs:label "PoC Boiler" .
+
+:N052271 a :PowerPlant;
+  :hasPart :261, :176, :501, :561;
+  rdfs:label "PoC Plant" .
+
+:176 a :118;
+  rdfs:label "PoC Turbine" .
+
+:501 a :21;
+  rdfs:label "PoC Condenser" .
+
+:561 a :70;
+  rdfs:label "PoC Feedwater pump" .
