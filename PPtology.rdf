@@ -77,6 +77,14 @@
     
 
 
+    <!-- http://pptology.org/ontology#hasSubObject -->
+
+    <owl:ObjectProperty rdf:about="http://pptology.org/ontology#hasSubObject">
+        <owl:inverseOf rdf:resource="http://pptology.org/ontology#isSubObjectOf"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://pptology.org/ontology#isComponentFor -->
 
     <owl:ObjectProperty rdf:about="http://pptology.org/ontology#isComponentFor">
@@ -88,6 +96,12 @@
     <!-- http://pptology.org/ontology#isPropertiFor -->
 
     <owl:ObjectProperty rdf:about="http://pptology.org/ontology#isPropertiFor"/>
+    
+
+
+    <!-- http://pptology.org/ontology#isSubObjectOf -->
+
+    <owl:ObjectProperty rdf:about="http://pptology.org/ontology#isSubObjectOf"/>
     
 
 

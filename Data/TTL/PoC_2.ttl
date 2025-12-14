@@ -7,7 +7,8 @@
   :partOf :N052271 .
 
 :st_N052271-1_261_176 a :State;
-  :IsStateOf :pipe_261_176 .
+  :IsStateOf :pipe_261_176;
+  :hasSubObject :N052271_1 .
 
 :p_N052271-1_261_177 a :Pressure;
   :isPropertiFor :st_N052271-1_261_176;
@@ -32,7 +33,8 @@
   :partOf :N052271 .
 
 :st_N052271-1_176_501 a :State;
-  :IsStateOf :pipe_176_501 .
+  :IsStateOf :pipe_176_501;
+  :hasSubObject :N052271_1 .
 
 :p_N052271-1_176_502 a :Pressure;
   :isPropertiFor :st_N052271-1_176_501;
@@ -54,7 +56,8 @@
   :partOf :N052271 .
 
 :st_N052271-1_501_561 a :State;
-  :IsStateOf :pipe_501_561 .
+  :IsStateOf :pipe_501_561;
+  :hasSubObject :N052271_1 .
 
 :p_N052271-1_501_562 a :Pressure;
   :isPropertiFor :st_N052271-1_501_561;
@@ -76,7 +79,8 @@
   :partOf :N052271 .
 
 :st_N052271-1_561_261 a :State;
-  :IsStateOf :pipe_561_261 .
+  :IsStateOf :pipe_561_261;
+  :hasSubObject :N052271_1 .
 
 :p_N052271-1_561_262 a :Pressure;
   :isPropertiFor :st_N052271-1_561_261;
